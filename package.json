@@ -1,0 +1,16 @@
+{
+  "name": "c-to-js-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "tsc src/main.ts --outDir dist && node dist/main.js example.c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.5.7",
+    "typescript": "^2.6.2"
+  }
+}
